@@ -3,7 +3,6 @@ description: Form for submitting use cases, problem statements, threats, or solu
 title: "SUBMISSION CATEGORY - Title"
 labels: ["use case"]
 assignees: 
-  - naomi-wash
   - carmen-viloria
   - rohinlohe
 body:
