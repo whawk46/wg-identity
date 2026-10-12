@@ -19,11 +19,12 @@ The primary goals of the Identity Working Group are:
 3. **Hardware-Enforced Identity Roots & Confidential Attestation**: Codify integration patterns for hardware-isolated execution environments (Confidential Computing enclaves, Intel TDX RTMRs, AMD SEV-SNP, Apple Secure Enclave) so agents can cryptographically prove their running code measurement and operational integrity to upstream counterparties.
 4. **Non-Repudiation & Transparency Logging**: Define interoperability profiles with verifiable transparency ledgers (such as IETF SCITT and append-only receipt registries) to ensure immutable audit trails of agent authorization and state transitions.
 5. **Cross-Working Group Interoperability**: Harmonize identity and delegation mandates with Domain Discovery (agent capability advertisement), Tax (verifiable attribution and compliance receipts), and Card Acceptance (delegated virtual card tokens).
+6. **Data-Subject Permission & Fair Value Allocation**: Specify how paid lookups, queries, or transactions concerning an identified individual carry that person's cryptographically verifiable permission (e.g., consent receipts, Verifiable Presentations), and define architectural interfaces for locking in or routing the data-subject's allocated share upon settlement.
 
 ## Anticipated Deliverables
 
 * **Specification**: *x402 Agent Identity & Delegated Authority Framework*.
-* **JSON Schema**: Normative schemas for agent identity manifests, spend mandates, and hardware attestation payloads.
+* **JSON Schema**: Normative schemas for agent identity manifests, spend mandates, hardware attestation payloads, and data-subject consent receipts.
 * **Reference Vectors**: Test suites for passkey delegation verification, agent-to-agent mutual authentication, and enclave measurement verification.
 * **Implementation Guide**: Architectural best practices for non-custodial agent key management, prompt injection defense, and hardware security boundaries.
 
